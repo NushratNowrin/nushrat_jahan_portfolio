@@ -2,8 +2,8 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, StarsCanvas, Tech,
 function App() {
   return (
     <div>
-      <div className="relative z-0 bg-primary">
-          <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+      <div className="relative z-0 bg-secondary">
+          <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed">
               <Navbar/>
               <Hero/>
           </div>

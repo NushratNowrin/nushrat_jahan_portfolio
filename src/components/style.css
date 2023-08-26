@@ -1,0 +1,21 @@
+/* Hero */
+.icon-shadow:hover, .button-shadow{
+    box-shadow: 0 0 1rem #ff9666;
+}
+.button-shadow:hover{
+    box-shadow: none;
+}
+.NushratImage{
+    animation: floatImg 4s ease-in-out infinite;
+}
+@keyframes floatImg {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2.4rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

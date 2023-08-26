@@ -10,8 +10,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#050816",
-        secondary: "#aaa6c3",
+        primary: "#ff9666",
+        secondary: "#050816",
         tertiary: "#151030",
         "black-100": "#100d25",
         "black-200": "#090325",
@@ -25,6 +25,7 @@ export default {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
+        "background-attachment": "fixed"
       },
     },
   },

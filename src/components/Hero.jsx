@@ -45,22 +45,26 @@ const Hero = () => {
 							</p>
 							<div className='flex items-center gap-5 sm:my-5 my-3'>
 								<div className={`${styles.bannerIcon} icon-shadow`}>
-									<a href=''>
+									<a href='https://www.linkedin.com/in/nushrat-jahan-nowrin/' target='_blank'
+									rel='noreferrer'>
 										<FaLinkedinIn />
 									</a>
 								</div>
 								<div className={`${styles.bannerIcon} icon-shadow`}>
-									<a href=''>
+									<a href='https://twitter.com/Nushrat_Jahan27' target='_blank'
+									rel='noreferrer'>
 										<FaTwitter />
 									</a>
 								</div>
 								<div className={`${styles.bannerIcon} icon-shadow`}>
-									<a href=''>
+									<a href='https://www.facebook.com/nushratjahan.nowrin' target='_blank'
+									rel='noreferrer'>
 										<FaFacebookF />
 									</a>
 								</div>
 								<div className={`${styles.bannerIcon} icon-shadow`}>
-									<a href=''>
+									<a href='https://www.behance.net/nushrat_jahan' target='_blank'
+									rel='noreferrer'>
 										<FaBehance className='' />
 									</a>
 								</div>

@@ -31,6 +31,10 @@ import {
       title: "About",
     },
     {
+      id: "services",
+      title: "Services",
+    },
+    {
       id: "work",
       title: "Work",
     },
@@ -39,6 +43,8 @@ import {
       title: "Contact",
     },
   ];
+
+  export const aboutMe = "Hi, I'm From Bangladesh. I am interested in web development sector since 2020. I wanted to be a full-stack web developer. I have continued self-learning through various resources Since then. Due to my keen interest, today I am qualified to introduce myself as a Junior Full Stack Developer. The path was not easy for me. During this long period, there have been various reasons for recession. But the journey did not stop. There is still a long way to go, and a lot to learn. I'm just on the way to fulfilling my dream. Please pray for me to fulfill my dream."
   
   const services = [
     {

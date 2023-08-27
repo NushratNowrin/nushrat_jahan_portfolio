@@ -1,0 +1,22 @@
+[
+	{
+        "id": 1,
+		"category": "Frontend Development",
+		"description": "Creating eye catching, interactive and responsive user interfaces using modern web technologies."
+	},
+	{
+        "id": 2,
+		"category": "Backend Development",
+		"description": "Building server-side logic and APIs to support the frontend, ensuring smooth functionality."
+	},
+	{
+        "id": 3,
+		"category": "Database Management",
+		"description": "Designing and managing databases to efficiently store and retrieve application data."
+	},
+	{
+        "id": 4,
+        "category": "Debugging",
+		"description": "If there is any bugs in the previously created website, we can remove it or modify according to the user's requirements."
+    }
+]

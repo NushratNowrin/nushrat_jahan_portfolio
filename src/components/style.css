@@ -1,21 +1,62 @@
 /* Hero */
-.icon-shadow:hover, .button-shadow{
+.icon-shadow:hover, .shadowButton, .NushratImage, .NushratImage2{
     box-shadow: 0 0 1rem #ff9666;
 }
-.button-shadow:hover{
-    box-shadow: none;
-}
+
 .NushratImage{
-    animation: floatImg 4s ease-in-out infinite;
+  animation: floatImg 4s ease-in-out infinite;
 }
 @keyframes floatImg {
-    0%{
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-2.4rem);
-    }
-    100%{
-        transform: translateY(0);
-    }
+  0%{
+      transform: translateY(0);
+  }
+  50%{
+      transform: translateY(-2.4rem);
+  }
+  100%{
+      transform: translateY(0);
+  }
 }
+
+
+/* Button */
+.shadowButton{
+  position: relative;
+  overflow: hidden;
+  transition: .6s;
+  z-index: 1;
+}
+
+.shadowButton::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ff9666;
+  height: 100%;
+  width: 0%;
+  z-index: -1;
+  transition: .4s;
+}
+.shadowButton:hover::before{
+  width: 100%;
+}
+
+
+
+/* About me */
+.NushratImage2 {
+    animation: zoom-in-zoom-out 4s ease infinite;
+  }
+  
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }

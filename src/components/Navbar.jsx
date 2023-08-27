@@ -11,7 +11,7 @@ const Navbar = () => {
 	const [toggle, setToggle] = useState(false);
 	return (
 		<nav
-			className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-secondary`}>
+			className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-secondary border-b-2 border-neutral-400`}>
 			<div className='w-full flex justify-between items-center max-w-7xl md:mx-20 mx-auto'>
 				<Link
 					to='/'
@@ -30,7 +30,7 @@ const Navbar = () => {
 						<li
 							key={link.id}
 							className={`${
-								active === link.title ? "text-[#FF7C4E]" : "text-neutral-400"
+								active === link.title ? "text-primary" : "text-neutral-400"
 							} hover:text-white text-base font-medium cursor-pointer`}
 							onClick={() => {
 								setActive(link.title);
@@ -57,7 +57,7 @@ const Navbar = () => {
 								<li
 									key={link.id}
 									className={`${
-										active === link.title ? "text-[#FF7C4E]" : "text-secondary"
+										active === link.title ? "text-primary" : "text-neutral-300"
 									} hover:text-white font-poppins text-base font-medium cursor-pointer`}
 									onClick={() => {
                     setToggle(!toggle); // By clicking on the mobile menu, it automatically close the toggle

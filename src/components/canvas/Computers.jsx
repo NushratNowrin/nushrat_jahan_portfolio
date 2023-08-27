@@ -34,7 +34,7 @@ const ComputersCanvas = () => {
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia("(max-width: 800px)");
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);
@@ -55,6 +55,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
+    className="h-[900px]"
       frameloop='demand'
       shadows
       dpr={[1, 2]}

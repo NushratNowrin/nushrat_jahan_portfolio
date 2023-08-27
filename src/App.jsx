@@ -1,4 +1,7 @@
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, StarsCanvas, Tech, Works, } from "./components"
+import Services from "./components/Services"
+import ThreeD from "./components/ThreeD"
+
 function App() {
   return (
     <div>
@@ -8,7 +11,9 @@ function App() {
               <Hero/>
           </div>
           <About/>
+          <Services />
           <Experience/>
+          <ThreeD />
           <Tech/>
           <Works/>
           <Feedbacks/>

@@ -2,7 +2,7 @@
 	{
         "id": 1,
 		"category": "Frontend Development",
-		"description": "Creating eye catching, interactive and responsive user interfaces using modern web technologies."
+		"description": "Creating interactive and responsive user interfaces using modern web technologies."
 	},
 	{
         "id": 2,
@@ -16,7 +16,7 @@
 	},
 	{
         "id": 4,
-        "category": "Debugging",
-		"description": "If there is any bugs in the previously created website, we can remove it or modify according to the user's requirements."
+        "category": "Debugging & Modification",
+		"description": "If there is any bugs in the website, we can remove it or modify according to requirements."
     }
 ]

@@ -1,6 +1,10 @@
 /* Hero */
-.icon-shadow:hover, .shadowButton, .NushratImage, .NushratImage2{
-    box-shadow: 0 0 1rem #ff9666;
+.NushratImage, .NushratImage2{
+    box-shadow: 0 0 0.5rem #ff9666;
+}
+
+.icon-shadow:hover, .shadowButton, .serviceBox, .service-icon{
+    box-shadow: 0 0 0.5rem #ff9666;
 }
 
 .NushratImage{
@@ -59,4 +63,12 @@
     100% {
       transform: scale(1, 1);
     }
+  }
+
+  /* Services */
+  .serviceBox{
+    transition: transform .3s ease-in-out;
+  }
+  .serviceBox:hover{
+    transform: scale(1.1);
   }

@@ -1,5 +1,6 @@
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, StarsCanvas, Tech, Works, } from "./components"
 import Services from "./components/Services"
+import Skills from "./components/Skills"
 import ThreeD from "./components/ThreeD"
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           </div>
           <About/>
           <Services />
+          <Skills />
           <Experience/>
           <ThreeD />
           <Tech/>

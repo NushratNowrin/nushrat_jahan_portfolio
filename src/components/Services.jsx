@@ -11,15 +11,15 @@ const Services = () => {
     },[]);
     // console.log(services)
 	return (
-		<section id='services' className='relative w-full sm:h-screen h-[750px] mx-auto bg-black-100'>
+		<section id='services' className='relative w-full md:h-screen xs:h-[900px] h-[1550px] mx-auto bg-black-100'>
 			<div
-				className={`${styles.paddingX} absolute inset-0 top-[50px] max-w-7xl text-center`}>
+				className={`${styles.paddingX} absolute inset-0 top-[80px] max-w-7xl text-center`}>
 				<h3 className={`${styles.bannerHeadText}`}>What I will do for you</h3>
-                <h2 className={`${styles.orangeHeader} text-3xl my-5`}>Services</h2>
-                <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 justify-center gap-5 items-center">
+                <h2 className={` font-bold text-white text-3xl my-5`}>Services</h2>
+                <div className="grid md:grid-cols-4 xs:grid-cols-2 grid-cols-1 justify-center items-center gap-8 mt-10">
                     {
                         services.map(service => 
-                            <Service key={service.id}></Service>)
+                            <Service key={service.id} {...service}></Service>)
                     }
                 </div>
 			</div>

@@ -89,7 +89,7 @@ const Hero = () => {
 				</Fade>
 			</div>
 
-			{/* <div className='absolute xs:bottom-10 bottom-32 w-full sm:flex justify-center items-center sm:visible hidden'>
+			<div className='absolute xs:bottom-10 bottom-32 w-full sm:flex justify-center items-center sm:visible hidden'>
 				<a href='#about'>
 					<div className='w-[35px] h-[64px] rounded-3xl border-4 border-neutral-400 flex justify-center items-start p-2'>
 						<motion.div
@@ -105,7 +105,7 @@ const Hero = () => {
 						/>
 					</div>
 				</a>
-			</div> */}
+			</div>
 		</section>
 	);
 };

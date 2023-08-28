@@ -21,6 +21,9 @@ const styles = {
     sectionHeadText:
       "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
 
+    sectionWhiteHeading:
+    "font-bold text-white text-3xl my-5 tracking tracking-wide",
+
     sectionSubText:
       "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
 

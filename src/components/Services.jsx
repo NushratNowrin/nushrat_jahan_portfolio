@@ -15,7 +15,7 @@ const Services = () => {
 			<div
 				className={`${styles.paddingX} absolute inset-0 top-[80px] max-w-7xl text-center`}>
 				<h3 className={`${styles.bannerHeadText}`}>What I will do for you</h3>
-                <h2 className={` font-bold text-white text-3xl my-5`}>Services</h2>
+                <h2 className={`${styles.sectionWhiteHeading}`}>Services</h2>
                 <div className="grid md:grid-cols-4 xs:grid-cols-2 grid-cols-1 justify-center items-center gap-8 mt-10">
                     {
                         services.map(service => 

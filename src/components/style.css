@@ -1,10 +1,10 @@
 /* Hero */
 .NushratImage, .NushratImage2{
-    box-shadow: 0 0 0.5rem #ff9666;
+    box-shadow: 0 0 0.5rem #967af9;
 }
 
-.icon-shadow:hover, .shadowButton, .serviceBox, .service-icon{
-    box-shadow: 0 0 0.5rem #ff9666;
+.icon-shadow:hover, .shadowButton, .serviceBox:hover, .service-icon{
+    box-shadow: 0 0 0.5rem #967af9;
 }
 
 .NushratImage{
@@ -36,7 +36,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: #ff9666;
+  background: #967af9;
   height: 100%;
   width: 0%;
   z-index: -1;

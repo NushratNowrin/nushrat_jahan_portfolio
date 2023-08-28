@@ -34,6 +34,10 @@ import {
       title: "Services",
     },
     {
+      id: "skills",
+      title: "Skills",
+    },
+    {
       id: "work",
       title: "Work",
     },

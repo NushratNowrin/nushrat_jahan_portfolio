@@ -93,3 +93,26 @@
   visibility: visible;
 } */
 
+/* ThreeD */
+.threeD{
+    background-image: url('/src/assets/threedbg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hand-icon {
+	animation: floathand 4s ease-in-out infinite;
+}
+@keyframes floathand {
+	0% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(8rem);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+

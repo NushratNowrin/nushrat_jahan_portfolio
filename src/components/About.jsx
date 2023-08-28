@@ -12,7 +12,7 @@ const About = () => {
 		<section id='about' className='w-full sm:h-screen h-[800px] mx-auto '>
 			<div
 				className={`${styles.paddingX} h-full grid sm:grid-cols-3 grid-cols-1 items-center justify-center sm:gap-20`}>
-				<Fade bottom>
+				<Fade left>
 					<div className='sm:order-first order-last  flex items-center justify-center w-full'>
 						<img
 							className='sm:h-72 h-60 sm:mt-10 -mt-20 rounded-lg outline-4  outline-primary -outline-offset-8 outline-double border-2 border-primary p-4 pr-0 NushratImage2'
@@ -21,7 +21,7 @@ const About = () => {
 						/>
 					</div>
 				</Fade>
-				<Fade top>
+				<Fade right cascade>
         <div className='sm:col-span-2 flex sm:items-center gap-5'>
 					<div className='flex flex-col justify-center items-center sm:mt-10'>
 						<div className='w-5 h-5 rounded-full bg-primary' />

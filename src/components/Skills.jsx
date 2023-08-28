@@ -11,7 +11,7 @@ const Skills = () => {
     },[]);
     // console.log(skills)
     return (
-        <section id="skills" className="relative w-full md:h-screen xs:h-[700px] h-[950px] mx-auto">
+        <section id="skills" className="relative w-full md:h-screen sm:h-[700px] h-[950px] mx-auto">
             <div
 				className={`${styles.paddingX} absolute inset-0 top-[80px] max-w-7xl text-center`}>
 				<h3 className={`${styles.bannerHeadText}`}>My Technical skills</h3>

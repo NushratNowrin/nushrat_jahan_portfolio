@@ -14,14 +14,14 @@ function App() {
           <About/>
           <Services />
           <Skills />
-          <Experience/>
+          {/* <Experience/> */}
           <ThreeD />
-          <Tech/>
+          {/* <Tech/>
           <Works/>
-          <Feedbacks/>
+          <Feedbacks/> */}
           <div className="relative z-0">
-              <Contact/>
-              <StarsCanvas/>
+              {/* <Contact/>
+              <StarsCanvas/> */}
           </div>
       </div>
     </div>

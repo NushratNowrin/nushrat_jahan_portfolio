@@ -39,7 +39,7 @@ const About = () => {
             {fold ? (
 						<>
 							<div>
-								<p>{aboutMe.substring(0,290)}.....</p>
+								<p>{aboutMe.substring(0,397)}.....</p>
 								<div className={`${styles.shadowButton} shadowButton px-8 mt-5`} onClick={() => setFold(!fold)}>
 									Read More
 								</div>

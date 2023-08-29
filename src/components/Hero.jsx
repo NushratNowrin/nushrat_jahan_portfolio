@@ -32,6 +32,8 @@ const Hero = () => {
                     'Full-stack Developer',
                     'MERN Developer',
                     'Front-end Developer',
+					'React Developer',
+					'UI Designer'
                     ]}
                     typeSpeed={50}
                     backSpeed={40}
@@ -40,8 +42,7 @@ const Hero = () => {
 							</h2>
 							<p className={`${styles.heroSubText} text-gray-300`}>
 								I currently working on MERN stack web development,{" "}
-								<br className='sm:block hidden' />  along with
-								3D visuals.
+								<br className='sm:block hidden' />  and connected with Web Development field since 2020.
 							</p>
 							<div className='flex items-center gap-5 sm:my-5 my-3'>
 								<div className={`${styles.bannerIcon} icon-shadow`}>
@@ -88,7 +89,6 @@ const Hero = () => {
 					</div>
 				</Fade>
 			</div>
-
 			<div className='absolute xs:bottom-10 bottom-32 w-full sm:flex justify-center items-center sm:visible hidden'>
 				<a href='#about'>
 					<div className='w-[35px] h-[64px] rounded-3xl border-4 border-neutral-400 flex justify-center items-start p-2'>
@@ -105,7 +105,9 @@ const Hero = () => {
 						/>
 					</div>
 				</a>
+				
 			</div>
+			
 		</section>
 	);
 };

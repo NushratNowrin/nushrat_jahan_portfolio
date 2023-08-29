@@ -1,123 +1,123 @@
 [
     {
         "id" : 1,
-        "img" : "../src/assets/skills/react.png",
+        "img" : "/skills/react.png",
         "name" : "React"
     },
     {
         "id" : 2,
-        "img" : "../src/assets/skills/ES6.png",
+        "img" : "/skills/ES6.png",
         "name" : "ES6"
     },
     {
         "id" : 3,
-        "img" : "../src/assets/skills/Js.png",
+        "img" : "/skills/Js.png",
         "name" : "JavaScript"
     },
     {
         "id" : 4,
-        "img" : "../src/assets/skills/tailwind.png",
+        "img" : "/skills/tailwind.png",
         "name" : "Tailwind CSS"
     },
     {
         "id" : 5,
-        "img" : "../src/assets/skills/Bootstrap.png",
+        "img" : "/skills/Bootstrap.png",
         "name" : "Bootstrap5"
     },
     {
         "id" : 6,
-        "img" : "../src/assets/skills/React_bootstrap.png",
+        "img" : "/skills/React_bootstrap.png",
         "name" : "React Bootstrap"
     },
     {
         "id" : 7,
-        "img" : "../src/assets/skills/mongo.png",
+        "img" : "/skills/mongo.png",
         "name" : "MongoDB"
     },
     {
         "id" : 8,
-        "img" : "../src/assets/skills/express.png",
+        "img" : "/skills/express.png",
         "name" : "Express JS"
     },
     {
         "id" : 9,
-        "img" : "../src/assets/skills/node-js.png",
+        "img" : "/skills/node-js.png",
         "name" : "Node JS"
     },
     {
         "id" : 10,
-        "img" : "../src/assets/skills/firebase.png",
+        "img" : "/skills/firebase.png",
         "name" : "Firebase"
     },
     
     {
         "id" : 11,
-        "img" : "../src/assets/skills/daisyui.png",
+        "img" : "/skills/daisyui.png",
         "name" : "Daisy UI"
     },
     {
         "id" : 12,
-        "img" : "../src/assets/skills/framer.png",
+        "img" : "/skills/framer.png",
         "name" : "Framer Motion"
     },
     {
         "id" : 13,
-        "img" : "../src/assets/skills/Css.png",
+        "img" : "/skills/Css.png",
         "name" : "CSS3"
     },
     {
         "id" : 14,
-        "img" : "../src/assets/skills/html.png",
+        "img" : "/skills/html.png",
         "name" : "HTML5"
     },
     {
         "id" : 15,
-        "img" : "../src/assets/skills/github.png",
+        "img" : "/skills/github.png",
         "name" : "GitHub"
     },
     {
         "id" : 16,
-        "img" : "../src/assets/skills/git.png",
+        "img" : "/skills/git.png",
         "name" : "Git"
     },
     {
         "id" : 17,
-        "img" : "../src/assets/skills/nextjs.png",
+        "img" : "/skills/nextjs.png",
         "name" : "Next JS"
     },
     {
         "id" : 18,
-        "img" : "../src/assets/skills/Typescript.png",
+        "img" : "/skills/Typescript.png",
         "name" : "Typescript"
     },
     {
         "id" : 19,
-        "img" : "../src/assets/skills/redux.png",
+        "img" : "/skills/redux.png",
         "name" : "Redux"
     },
     {
         "id" : 20,
-        "img" : "../src/assets/skills/mysql.png",
+        "img" : "/skills/mysql.png",
         "name" : "MYSQL"
     },
     {
         "id" : 21,
-        "img" : "../src/assets/skills/PHP.png",
+        "img" : "/skills/PHP.png",
         "name" : "PHP"
     },
     {
         "id" : 22,
-        "img" : "../src/assets/skills/python.png",
+        "img" : "/skills/python.png",
         "name" : "Python"
     },
     {
         "id" : 23,
-        "img" : "../src/assets/skills/c++.png",
+        "img" : "/skills/c++.png",
         "name" : "C++"
     },
     {
         "id" : 24,
-        "img" : "../src/assets/skills/C.png",
+        "img" : "/skills/C.png",
         "name" : "C"
     }
 ]

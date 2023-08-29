@@ -116,3 +116,34 @@
 	}
 }
 
+/* project */
+.project-img{
+	box-shadow: 5px 5px 10px #000 ;
+	background-position: top;
+	transition: background-position 10s ease-in-out;
+}
+.project-img:hover{
+	background-position: bottom;
+}
+.project-cart, .arrow-box{
+	box-shadow: 0 0 0.25rem white;
+}
+.arrow-box{
+	animation: icon 2s ease infinite;
+	
+}
+@keyframes icon {
+	0% {
+		transform: scale(1, 1);
+	}
+	50% {
+		transform: scale(1.2, 1.2);
+	}
+	100% {
+		transform: scale(1, 1);
+	}
+}
+.arrow-box:hover{
+	animation-play-state: paused;
+}
+

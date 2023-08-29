@@ -7,9 +7,9 @@ import "./style.css";
 import { useState } from "react";
 
 const About = () => {
-  const [fold, setFold] = useState(true);
+	const [fold, setFold] = useState(true);
 	return (
-		<section id='about' className='w-full sm:h-screen h-[800px] mx-auto '>
+		<section id='about' className='w-full sm:h-screen h-[930px] mx-auto '>
 			<div
 				className={`${styles.paddingX} h-full grid sm:grid-cols-3 grid-cols-1 items-center justify-center sm:gap-20`}>
 				<Fade left>
@@ -22,42 +22,44 @@ const About = () => {
 					</div>
 				</Fade>
 				<Fade right cascade>
-        <div className='sm:col-span-2 flex sm:items-center gap-5'>
-					<div className='flex flex-col justify-center items-center sm:mt-10'>
-						<div className='w-5 h-5 rounded-full bg-primary' />
-						<div className='w-1 h-80 bg-gradient-to-b from-primary' />
-					</div>
-					<div>
-						<h3 className={`${styles.bannerHeadText}`}>
-							Let me Introduce myself
-						</h3>
-						<h2 className={`${styles.orangeHeader}`}>
-							About Me
-						</h2>
-						<h1 className={`${styles.heroHeadText} `}>Nushrat Jahan</h1>
+					<div className='sm:col-span-2 flex sm:items-center gap-5'>
+						<div className='flex flex-col justify-center items-center sm:mt-10'>
+							<div className='w-5 h-5 rounded-full bg-primary' />
+							<div className='w-1 h-80 bg-gradient-to-b from-primary' />
+						</div>
+						<div>
+							<h3 className={`${styles.bannerHeadText}`}>
+								Let me Introduce myself
+							</h3>
+							<h2 className={`${styles.orangeHeader}`}>About Me</h2>
+							<h1 className={`${styles.heroHeadText} `}>Nushrat Jahan</h1>
 
-            {fold ? (
-						<>
-							<div>
-								<p>{aboutMe.substring(0,397)}.....</p>
-								<div className={`${styles.shadowButton} shadowButton px-8 mt-5`} onClick={() => setFold(!fold)}>
-									Read More
-								</div>
-							</div>
-						</>
-					) : (
-						<>
-							<div>
-              <p className="text-sm">{aboutMe}</p>
-								<div className={`${styles.shadowButton} shadowButton px-8 mt-5 sm:mb-0 mb-16`} onClick={() => setFold(!fold)}>
-									Read Less
-								</div>
-							</div>
-						</>
-					)}
+							{fold ? (
+								<>
+									<div>
+										<p className='md:text-base text-sm'>{aboutMe.substring(0, 397)}.....</p>
+										<div
+											className={`${styles.shadowButton} shadowButton px-8 mt-5`}
+											onClick={() => setFold(!fold)}>
+											Read More
+										</div>
+									</div>
+								</>
+							) : (
+								<>
+									<div>
+										<p className='text-sm'>{aboutMe}</p>
+										<div
+											className={`${styles.shadowButton} shadowButton px-8 mt-5 sm:mb-0 mb-16`}
+											onClick={() => setFold(!fold)}>
+											Read Less
+										</div>
+									</div>
+								</>
+							)}
+						</div>
 					</div>
-				</div>
-        </Fade>
+				</Fade>
 			</div>
 		</section>
 	);

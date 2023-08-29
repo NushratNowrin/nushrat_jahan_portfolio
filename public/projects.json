@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Craftopia",
+        "img" : "/Projects/craftopia.png",
+        "description": "It is a full stack MERN project and an Art & Craft Teaching Academy Website. Dashboard provided for students, instructors, and admin to manage activities. Admin oversees all student and instructor activities, reviewing classes for approval. Students can enroll in classes, view selected courses, and utilize the payment system.",
+        "technologies": "React.js, Node.js, MongoDB, Express.js, Tailwind.css, Firebase.",
+        "livelink": "https://craftopia-3eb87.web.app/"
+    },
+    {
+        "id": 2,
+        "name": "Princess Palette",
+        "img" : "/Projects/Princess-Palette.png",
+        "description": "This is a full stack MERN project, you can add different toys. It is a toy marketplace website. Users can add and view toys in their collection on the 'My Toys' page. Toy details are visible to all users, but certain actions require login Logged-in users have private routes to manage their products, including updating, deleting, and adding new toys.",
+        "technologies": "React.js, JavaScript, Tailwind, DaisyUI, Firebase, Express.js, node.js, MongoDB etc.",
+        "livelink": "https://princess-palette.web.app/"
+    },
+    {
+        "id": 3,
+        "name": "Deshi Delights",
+        "img" : "/Projects/deshi-delights.png",
+        "description": "This is another full stack MERN project and a Restaurant website. The website is responsive as well. Here a user finds different chefs and their recipes, login, logout, and register option. All chefs have different types of recipes page. The 'Recipes' page is private. From here a user can add their favorite recipes to the cart.",
+        "technologies": "React.js, Node.js, MongoDB, Express.js, Tailwind.css, Firebase.",
+        "livelink": "https://deshi-delights.web.app/"
+    }
+]

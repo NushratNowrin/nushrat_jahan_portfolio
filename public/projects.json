@@ -22,5 +22,61 @@
         "description": "This is another full stack MERN project and a Restaurant website. The website is responsive as well. Here a user finds different chefs and their recipes, login, logout, and register option. All chefs have different types of recipes page. The 'Recipes' page is private. From here a user can add their favorite recipes to the cart.",
         "technologies": "React.js, Node.js, MongoDB, Express.js, Tailwind.css, Firebase.",
         "livelink": "https://deshi-delights.web.app/"
+    },
+    {
+        "id": 4,
+        "name": "Career Flock",
+        "img" : "/Projects/career-flock.png",
+        "description": "This is a Front end React project and a Job Hunting website. The website is responsive as well. Here users get information about hiring job and can apply. This was just a practice clone project",
+        "technologies": "React.js, Bootstrap5, CSS5.",
+        "livelink": "https://64ed667b1cdfe30c7867a169--courageous-treacle-91058f.netlify.app/"
+    },
+    {
+        "id": 5,
+        "name": "Ema-John",
+        "img" : "/Projects/Ema-john.png",
+        "description": "This is a Front end React project and a Job Hunting website. The website is responsive as well. Here users get information about hiring job and can apply. This was just a practice clone project",
+        "technologies": "React.js, Bootstrap5, CSS5.",
+        "livelink": "https://64ed667b1cdfe30c7867a169--courageous-treacle-91058f.netlify.app/"
+    },
+    {
+        "id": 6,
+        "name": "Knowledge Station",
+        "img" : "/Projects/knowledge-station.png",
+        "description": "This is a Front end React project and a Job Hunting website. The website is responsive as well. Here users get information about hiring job and can apply. This was just a practice clone project",
+        "technologies": "React.js, Bootstrap5, CSS5.",
+        "livelink": "https://funny-trifle-c08652.netlify.app/"
+    },
+    {
+        "id": 7,
+        "name": "AI Uviverse",
+        "img" : "/Projects/AI-universe.png",
+        "description": "This is a Front end React project and a Job Hunting website. The website is responsive as well. Here users get information about hiring job and can apply. This was just a practice clone project",
+        "technologies": "React.js, Bootstrap5, CSS5.",
+        "livelink": "https://gentle-truffle-82cfdc.netlify.app/"
+    },
+    {
+        "id": 8,
+        "name": "Geometry Genius",
+        "img" : "/Projects/Geometry-genius.png",
+        "description": "This is a Front end React project and a Job Hunting website. The website is responsive as well. Here users get information about hiring job and can apply. This was just a practice clone project",
+        "technologies": "React.js, Bootstrap5, CSS5.",
+        "livelink": "https://clinquant-salmiakki-48e8c0.netlify.app/"
+    },
+    {
+        "id": 9,
+        "name": "Quiz Hero",
+        "img" : "/Projects/Quiz-hero.png",
+        "description": "This is a Front end React project and a Job Hunting website. The website is responsive as well. Here users get information about hiring job and can apply. This was just a practice clone project",
+        "technologies": "React.js, Bootstrap5, CSS5.",
+        "livelink": "https://stately-paletas-59b68a.netlify.app/"
+    },
+    {
+        "id": 10,
+        "name": "Simple Bank Calculation",
+        "img" : "/Projects/bank-calculation.png",
+        "description": "This is a Front end React project and a Job Hunting website. The website is responsive as well. Here users get information about hiring job and can apply. This was just a practice clone project",
+        "technologies": "React.js, Bootstrap5, CSS5.",
+        "livelink": "https://effortless-alfajores-8b60e5.netlify.app/login.html"
     }
 ]

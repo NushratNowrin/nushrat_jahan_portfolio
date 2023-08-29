@@ -23,9 +23,6 @@ const AllProjects = () => {
                             )
                     }
                 </div>
-                <div className={`${styles.shadowButton} shadowButton mt-20`}>
-                    <a href="/all-projects" className='px-8'>Want to view more Project? Let&apos;s go</a>
-                </div>
             </div>
         </section>
     );

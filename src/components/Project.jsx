@@ -7,9 +7,13 @@ const Project = (project) => {
 	return (
 		<section
 			id='projects'
-			className='md:flex even:flex-row-reverse items-center justify-center gap-0 mx-auto'>
+			className='md:flex even:flex-row-reverse items-center justify-center gap-0 mx-auto my-5'>
 			<div
 				className={`md:w-1/2 h-80 project-img bg-[url('${img}')] bg-cover`}></div>
+			{/* <div
+				className={`md:w-1/2 h-80 project-img bg-[url('/Projects/bank-calculation.png')]`}></div> */}
+			
+			
 
 			<div className='relative md:w-1/2 md:h-64 sm:h-52 h-80 p-5 bg-secondary  project-cart'>
 				<h2 className='text-primary uppercase font-semibold text-xl tracking-widest mb-3'>
@@ -25,7 +29,6 @@ const Project = (project) => {
 					</a>
 				</div>
 			</div>
-            
 		</section>
 	);
 };

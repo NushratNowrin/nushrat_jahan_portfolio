@@ -25,6 +25,7 @@ const Project = (project) => {
 					</a>
 				</div>
 			</div>
+            
 		</section>
 	);
 };

@@ -7,12 +7,17 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
+import AllProjects from './components/AllProjects.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
   },
+  {
+    path: "/all-projects",
+    element: <AllProjects></AllProjects>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

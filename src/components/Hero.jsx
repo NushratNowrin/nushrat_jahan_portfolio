@@ -5,6 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import Fade from "react-reveal/Slide";
 import Typed from 'react-typed';
 import "./style.css";
@@ -67,6 +68,12 @@ const Hero = () => {
 									<a href='https://www.behance.net/nushrat_jahan' target='_blank'
 									rel='noreferrer'>
 										<FaBehance className='' />
+									</a>
+								</div>
+								<div className={`${styles.bannerIcon} icon-shadow`}>
+									<a href='https://github.com/NushratNowrin' target='_blank'
+									rel='noreferrer'>
+										<FaGithub className='' />
 									</a>
 								</div>
 							</div>

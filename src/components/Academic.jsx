@@ -28,7 +28,7 @@ const Academic = () => {
 								<div className='rounded-full  bg-neutral'>
 									<img className='h-14 p-2' src={academic.icon} alt='' />
 								</div>
-								{/* <CgArrowLongDown className="text-4xl opacity-50 text-primary"/> */}
+								
 								<div className='text-xl leading-none text-primary opacity-50'>
 									|
 								</div>
@@ -42,7 +42,7 @@ const Academic = () => {
 									<img className='h-14' src={academic.logo} alt='' />
 								</div>
 								<CgArrowLongDown className='text-4xl opacity-50 text-primary' />
-								<div className='academic-box md:p-4 p-6 rounded-tl-3xl rounded-br-3xl flex items-center justify-center bg-white bg-opacity-10 md:w-full w-auto  lg:h-54 md:h-64 h-auto'>
+								<div className='academic-box p-6 rounded-tl-3xl rounded-br-3xl flex items-center justify-center bg-white bg-opacity-10 md:w-full w-auto  lg:h-54 md:h-64 h-auto'>
 									<div>
 										<h2 className='text-primary font-semibold tracking-wider mb-2'>
 											{academic.degree}

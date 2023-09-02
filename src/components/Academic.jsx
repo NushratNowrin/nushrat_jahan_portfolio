@@ -26,7 +26,7 @@ const Academic = () => {
 							<div className='flex flex-col justify-center items-center md:border-t-[0px] border-t-[1px] border-primary'>
 								<CgArrowLongDownR className='text-3xl opacity-50 text-primary' />
 								<div className='rounded-full  bg-neutral'>
-									<img className='h-14 p-2' src={academic.icon} alt='' />
+									<img className='h-12 w-12 p-2' src={academic.icon} alt='' />
 								</div>
 								
 								<div className='text-xl leading-none text-primary opacity-50'>

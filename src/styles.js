@@ -28,7 +28,10 @@ const styles = {
       "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
 
     shadowButton:
-    "inline-block text-primary text-sm font-semibold py-2 border-2 bg-transparent border-primary  rounded-xl hover:text-black"
+    "inline-block text-primary text-sm font-semibold py-2 border-2 bg-transparent border-primary  rounded-xl hover:text-black",
+
+    inputField:
+    "px-3 py-1 bg-white bg-opacity-50 placeholder-gray-700 border-2 border-gray-400 w-full text-white mb-3 focus:bg-opacity-0 focus:placeholder-gray-300"
       
   };
   

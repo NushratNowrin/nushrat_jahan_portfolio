@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 1,
+        "icon" : "academic/Graduate.png" ,
+        "logo" : "academic/IU.png",
+        "degree" : "Bachelor of Science in Engineering",
+        "short" : "B.Sc. in (Engg.)",
+        "group" : "Information and Communication Technology (ICT)",
+        "institute" : "Islamic University, Bangladesh",
+        "duration" : "Jan, 2018 - Jan, 2022"
+    },
+    {
+        "id" : 2,
+        "icon" : "academic/paper.png" ,
+        "logo" : "academic/KGC.png",
+        "degree" : "Higher Secondary School Certificate",
+        "short" : "H.S.C",
+        "group" : "Science",
+        "institute" : "Kushtia Government College, Kushtia",
+        "duration" : "July, 2015 - June, 2027"
+    },
+    {
+        "id" : 3,
+        "icon" : "academic/book.png"  ,
+        "logo" : "academic/PLSC.png",
+        "degree" : "Secondary School Certificate",
+        "short" : "S.S.C.",
+        "group" : "Science",
+        "institute" : "Ploce Line's School and College, Kushtia",
+        "duration" : "Jan, 2010 - May, 2025"
+    }
+]

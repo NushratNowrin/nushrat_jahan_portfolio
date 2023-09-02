@@ -35,7 +35,7 @@ const Project = (project) => {
 				<h2 className='text-primary uppercase font-semibold text-xl tracking-widest mb-3'>
 					{name}
 				</h2>
-				<p className='lg:text-sm text-xs text-neutral-400'>{description}</p>
+				<p className='lg:text-sm text-xs text-neutral'>{description}</p>
 				<p className='lg:text-sm text-xs text-neutral-200'>
 					Technology Used: {technologies}
 				</p>

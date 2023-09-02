@@ -147,3 +147,8 @@
 	animation-play-state: paused;
 }
 
+/* academic */
+.academic-box:hover {
+	box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.388);
+}
+

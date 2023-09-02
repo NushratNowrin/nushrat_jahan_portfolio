@@ -12,7 +12,7 @@ const AllProjects = () => {
         .then(data => setProjects(data))
     },[]);
     return (
-        <section id='services' className='py-20 w-full mx-auto bg-black-100'>
+        <section id='services' className='py-20 w-full mx-auto bg-black-100 border-b-2 border-neutral'>
             <div className={`${styles.paddingX} top-[80px] max-w-7xl text-center`}>
             <h3 className={`${styles.bannerHeadText}`}>Each project is a unique piece of development</h3>
                 <h2 className={`${styles.sectionWhiteHeading}`}>All <span className='text-primary'>Projects</span></h2>

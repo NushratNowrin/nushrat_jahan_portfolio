@@ -5,7 +5,9 @@
         "img" : "/Projects/craftopia.png",
         "description": "It is a full stack MERN project and an Art & Craft Teaching Academy Website. Dashboard provided for students, instructors, and admin to manage activities. Admin oversees all student and instructor activities, reviewing classes for approval. Students can enroll in classes, view selected courses, and utilize the payment system.",
         "technologies": "React.js, Node.js, MongoDB, Express.js, Tailwind.css, Firebase.",
-        "livelink": "https://craftopia-3eb87.web.app/"
+        "livelink": "https://craftopia-3eb87.web.app/",
+        "github": "https://github.com/NushratNowrin/craftopia-client-side",
+        "server": "https://github.com/NushratNowrin/craftopia-server-side"
     },
     {
         "id": 2,
@@ -13,7 +15,9 @@
         "img" : "/Projects/Princess-Palette.png",
         "description": "This is a full stack MERN project, you can add different toys. It is a toy marketplace website. Users can add and view toys in their collection on the 'My Toys' page. Toy details are visible to all users, but certain actions require login Logged-in users have private routes to manage their products, including updating, deleting, and adding new toys.",
         "technologies": "React.js, JavaScript, Tailwind, DaisyUI, Firebase, Express.js, node.js, MongoDB etc.",
-        "livelink": "https://princess-palette.web.app/"
+        "livelink": "https://princess-palette.web.app/",
+        "github": "https://github.com/NushratNowrin/princess-palette",
+        "server": "https://github.com/NushratNowrin/princess-palette-server"
     },
     {
         "id": 3,
@@ -21,7 +25,9 @@
         "img" : "/Projects/deshi-delights.png",
         "description": "This is another full stack MERN project and a Restaurant website. The website is responsive as well. Here a user finds different chefs and their recipes, login, logout, and register option. All chefs have different types of recipes page. The 'Recipes' page is private. From here a user can add their favorite recipes to the cart.",
         "technologies": "React.js, Node.js, MongoDB, Express.js, Tailwind.css, Firebase.",
-        "livelink": "https://deshi-delights.web.app/"
+        "livelink": "https://deshi-delights.web.app/",
+        "github": "https://github.com/NushratNowrin/chef-recipe-hunter-client-side",
+        "server": "https://github.com/NushratNowrin/chef-recipe-hunter-server-side"
     },
     {
         "id": 4,
@@ -35,48 +41,63 @@
         "id": 5,
         "name": "Ema-John",
         "img" : "/Projects/Ema-john.png",
-        "description": "This is a Front end React project and a Job Hunting website. The website is responsive as well. Here users get information about hiring job and can apply. This was just a practice clone project",
+        "description": "Ema-John is an e-commerce website. Here many products card with image and details information and a Add to cart button can found. In the right side, a sidebar is available. In this sidebar all the calculation is done, which product you add to cart and what's the ammount you have to pay.",
         "technologies": "React.js, Bootstrap5, CSS5.",
-        "livelink": "https://64ed667b1cdfe30c7867a169--courageous-treacle-91058f.netlify.app/"
+        "livelink": "https://funny-trifle-c08652.netlify.app/",
+        "github": "https://github.com/NushratNowrin/Ema-John"
     },
     {
         "id": 6,
         "name": "Knowledge Station",
         "img" : "/Projects/knowledge-station.png",
-        "description": "This is a Front end React project and a Job Hunting website. The website is responsive as well. Here users get information about hiring job and can apply. This was just a practice clone project",
-        "technologies": "React.js, Bootstrap5, CSS5.",
-        "livelink": "https://funny-trifle-c08652.netlify.app/"
+        "description": "In this website, four blogs can found. Every Blogs has an image, author's image, author's name, publishing date, heading, some tags, and mark as read option. Also every blog has a bookmark icon with timeline about which time will taken fpr reading this blog. In the right side a sidebar here. When a user will visit this site he can mark as read option, and then in the sidebar, the blog will stored.",
+        "technologies": "JavaScript, Bootstrap5, CSS5.",
+        "livelink": "https://melodic-brigadeiros-34a263.netlify.app/",
+        "github": "https://github.com/NushratNowrin/knowledge-station"
     },
     {
         "id": 7,
         "name": "AI Uviverse",
         "img" : "/Projects/AI-universe.png",
-        "description": "This is a Front end React project and a Job Hunting website. The website is responsive as well. Here users get information about hiring job and can apply. This was just a practice clone project",
-        "technologies": "React.js, Bootstrap5, CSS5.",
-        "livelink": "https://gentle-truffle-82cfdc.netlify.app/"
+        "description": "AI Universe hub is a collection of hottest technology. Each technology has its own card. Each card has several features and date with a clicable link. All the card can sort by date. In the bottom there you can see a loader and see more button",
+        "technologies": "JavaScript, Tailwind, CSS5.",
+        "livelink": "https://gentle-truffle-82cfdc.netlify.app/",
+        "github": "https://github.com/NushratNowrin/AI-universe-hub.git"
     },
     {
         "id": 8,
         "name": "Geometry Genius",
         "img" : "/Projects/Geometry-genius.png",
-        "description": "This is a Front end React project and a Job Hunting website. The website is responsive as well. Here users get information about hiring job and can apply. This was just a practice clone project",
-        "technologies": "React.js, Bootstrap5, CSS5.",
-        "livelink": "https://clinquant-salmiakki-48e8c0.netlify.app/"
+        "description": "This is a Geometry Calculation website. Here you can calculate the Square of Triangle, Rectangle, Parallelogram, Rhombus, Pentagon,and Ellipse. The interesting fact is that the cards background color changes randomly when you mouse over there.",
+        "technologies": "JavaScript, Bootstrap5, CSS5.",
+        "livelink": "https://clinquant-salmiakki-48e8c0.netlify.app/",
+        "github": "https://github.com/NushratNowrin/Geometry-genius"
     },
     {
         "id": 9,
         "name": "Quiz Hero",
         "img" : "/Projects/Quiz-hero.png",
-        "description": "This is a Front end React project and a Job Hunting website. The website is responsive as well. Here users get information about hiring job and can apply. This was just a practice clone project",
-        "technologies": "React.js, Bootstrap5, CSS5.",
-        "livelink": "https://stately-paletas-59b68a.netlify.app/"
+        "description": "This is a Quiz testing website. In the first page you can see some rules for the quiz and start button. By Clicking start button, 3,2,1 counted and then the quiz page appear. There are six multiple choice question and a timer which count down from 2 second. After completing quiz, you can see your score immediately with acurate answer sheet",
+        "technologies": "JavaScript, Bootstrap5, CSS3.",
+        "livelink": "https://stately-paletas-59b68a.netlify.app/",
+        "github": "https://github.com/NushratNowrin/quiz-hero"
     },
     {
         "id": 10,
         "name": "Simple Bank Calculation",
         "img" : "/Projects/bank-calculation.png",
-        "description": "This is a Front end React project and a Job Hunting website. The website is responsive as well. Here users get information about hiring job and can apply. This was just a practice clone project",
-        "technologies": "React.js, Bootstrap5, CSS5.",
-        "livelink": "https://effortless-alfajores-8b60e5.netlify.app/login.html"
+        "description": "This is a simple Bank calculation practice project. Here First of all the calculation page appears after login, using an accurate email and password. On the home page, from the deposit option, you can deposit your account which will be added to the balance section. From the Withdraw button which amount you withdraw, that deducted from the Balance",
+        "technologies": "JavaScript, Bootstrap5, CSS3, HTML5.",
+        "livelink": "https://effortless-alfajores-8b60e5.netlify.app/login.html",
+        "github": "https://github.com/NushratNowrin/Baap_er_Bank"
+    },
+    {
+        "id": 11,
+        "name": "Simple Bar and Chart",
+        "img" : "/Projects/react_with_tailwind.png",
+        "description": "This is a practice project. In this project at first I explore mobile menu. Also I use price list from tailwind, and graph and bar from ReCharts",
+        "technologies": "React, Tailwind, Rechart, CSS3, HTML5.",
+        "livelink": "https://64f344b0fca8380379422cf2--dancing-pavlova-dcf92f.netlify.app/",
+        "github": "https://github.com/NushratNowrin/explore-tailwind"
     }
 ]

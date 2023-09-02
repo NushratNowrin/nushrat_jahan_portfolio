@@ -51,7 +51,7 @@ import {
     },
   ];
 
-  export const aboutMe = "Hi, I'm From Bangladesh. I am interested in web development sector since 2020 when I was studying in Information & Communication Technology Department in Islamic University, Bangladesh. I wanted to be a full-stack web developer. I have continued self-learning through various resources Since then. Due to my keen interest, today I am qualified to introduce myself as a Junior Full Stack Developer. The path was not easy for me. During this long period, there have been various reasons for recession. But the journey did not stop. There is still a long way to go, and a lot to learn. I'm just on the way to fulfilling my dream. Please pray for me to fulfill my dream."
+  export const aboutMe = "Introduce myself as a dedicated MERN developer. I have been interested in the Web Development sector since 2020, when I just completed my 2nd year in the Information and Communication Technology Department at Islamic University, Bangladesh. I wanted to be a Full-Stack Developer. Since then I have continued to self-Learning through various resources. Due to my keen interest, today I am qualified to introduce myself as a Junior Full Stack Developer. The path wasn't easy for me. I encountered many stumbling blocks on this long journey. The journey was disrupted temporarily but didn't stop. There is still a long way to go and more to learn. I am just on my way to fulfill my dream. I'm skilled in React.js, ES6, JavaScript, MongoDB, Node.js, Express.js, Firebase, Tailwind, Bootstrap, CSS3, and HTML5. I also have a reputation for time management, Unique Idea creation, and good communication."
   
   const services = [
     {

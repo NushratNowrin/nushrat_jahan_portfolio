@@ -9,13 +9,13 @@ import { useState } from "react";
 const About = () => {
 	const [fold, setFold] = useState(true);
 	return (
-		<section id='about' className='w-full sm:h-screen h-[930px] mx-auto '>
+		<section id='about' className='w-full sm:h-screen h-auto mx-auto '>
 			<div
 				className={`${styles.paddingX} h-full grid sm:grid-cols-3 grid-cols-1 items-center justify-center sm:gap-20`}>
 				<Fade left>
 					<div className='sm:order-first order-last  flex items-center justify-center w-full'>
 						<img
-							className='sm:h-72 h-60 sm:mt-10 -mt-20 rounded-lg outline-4  outline-primary -outline-offset-8 outline-double border-2 border-primary p-4 pr-0 NushratImage2'
+							className='sm:h-72 h-60 sm:mt-10 md:mb-0 mb-20 rounded-lg outline-4  outline-primary -outline-offset-8 outline-double border-2 border-primary p-4 pr-0 NushratImage2'
 							src={Nushrat}
 							alt='Nushrat'
 						/>
@@ -37,7 +37,7 @@ const About = () => {
 							{fold ? (
 								<>
 									<div>
-										<p className='md:text-base text-sm'>{aboutMe.substring(0, 397)}.....</p>
+										<p className='md:text-base text-sm'>{aboutMe.substring(0, 451)}</p>
 										<div
 											className={`${styles.shadowButton} shadowButton px-8 mt-5`}
 											onClick={() => setFold(!fold)}>
@@ -48,7 +48,8 @@ const About = () => {
 							) : (
 								<>
 									<div>
-										<p className='text-sm'>{aboutMe}</p>
+										<p className='text-sm'>{aboutMe.substring(0, 451)}</p>
+										<p className='text-sm'>{aboutMe.substring(451, 900)}</p>
 										<div
 											className={`${styles.shadowButton} shadowButton px-8 mt-5 sm:mb-0 mb-16`}
 											onClick={() => setFold(!fold)}>

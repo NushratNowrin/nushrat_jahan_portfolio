@@ -16,7 +16,7 @@ const Skills = () => {
 				className={`${styles.paddingX} absolute inset-0 top-[80px] max-w-7xl text-center`}>
 				<h3 className={`${styles.bannerHeadText}`}>My Technical skills</h3>
                 <h2 className={`${styles.sectionWhiteHeading}`}>Skills</h2>
-                <div className="grid lg:grid-cols-8 md:grid-cols-6 sm:grid-cols-4 grid-cols-3 justify-center items-center gap-5 mt-8">
+                <div className="grid lg:grid-cols-8 md:grid-cols-6 sm:grid-cols-4 grid-cols-3 justify-center items-center gap-5 md:mt-16 mt-8">
                     {
                         skills.map(skill => 
                             <Skill key={skill.id} {...skill}></Skill>

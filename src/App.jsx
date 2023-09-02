@@ -1,4 +1,5 @@
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, StarsCanvas, Tech, Works, } from "./components"
+import Academic from "./components/Academic"
 import Footer from "./components/Footer"
 import Projects from "./components/Projects"
 import Services from "./components/Services"
@@ -17,14 +18,16 @@ function App() {
           <Services />
           <Skills /> 
           <Projects/>
-          <ThreeD />
+          <Academic />
+          <Contact/>
           {/* <Tech/>
           <Works/>
           <Feedbacks/> */}
           <div className="relative z-0">
-              {/* <Contact/>
+              {/* 
               <StarsCanvas/> */}
           </div>
+          <ThreeD />
           <Footer />
       </div>
     </div>

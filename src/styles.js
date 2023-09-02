@@ -4,7 +4,7 @@ const styles = {
     padding: "sm:px-16 px-6 sm:py-16 py-10",
     
     bannerHeadText:
-    "text-gray-300 uppercase font-semibold text-lg tracking-widest",
+    "text-gray-300 uppercase font-semibold text-base tracking-widest",
 
     heroHeadText:
       "font-black text-white lg:text-[36px] sm:text-[32px]  text-[26px] lg:leading-[60px] tracking-wider",

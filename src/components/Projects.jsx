@@ -13,7 +13,7 @@ const Projects = () => {
     // console.log(projects)
     const threeProjects = projects.slice(0, 3);
     return (
-        <section id='projects' className='py-20 w-full mx-auto bg-black-100'>
+        <section id='projects' className='py-28 w-full mx-auto bg-black-100'>
             <div className={`${styles.paddingX} top-[80px] text-center`}>
             <h3 className={`${styles.bannerHeadText}`}>Each project is a unique piece of development</h3>
                 <h2 className={`${styles.sectionWhiteHeading}`}>Projects</h2>

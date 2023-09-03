@@ -9,9 +9,9 @@ const Academic = () => {
 			.then((res) => res.json())
 			.then((data) => setAcademics(data));
 	}, []);
-	console.log(academics)
+	// console.log(academics)
 	return (
-		<section id='academic' className='py-20 w-full mx-auto'>
+		<section id='academic' className='py-28 w-full mx-auto'>
 			<div className={`${styles.paddingX} top-[80px]  text-center`}>
 				<h3 className={`${styles.bannerHeadText}`}>
 					expert in anything was also once a beginner

@@ -11,9 +11,9 @@ const Services = () => {
     },[]);
     // console.log(services)
 	return (
-		<section id='services' className='relative w-full md:h-screen xs:h-[900px] h-[1550px] mx-auto bg-black-100'>
+		<section id='services' className='w-full mx-auto bg-black-100'>
 			<div
-				className={`${styles.paddingX} absolute inset-0 top-[80px] text-center`}>
+				className={`${styles.paddingX} py-28  text-center`}>
 				<h3 className={`${styles.bannerHeadText}`}>What I will do for you</h3>
                 <h2 className={`${styles.sectionWhiteHeading}`}>Services</h2>
                 <div className="grid md:grid-cols-4 xs:grid-cols-2 grid-cols-1 justify-center items-center gap-8 mt-10">

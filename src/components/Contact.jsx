@@ -46,7 +46,7 @@ const Contact = () => {
 			className='relative contact py-20 w-full mx-auto bg-black-100'>
 			<div className='absolute top-0 bottom-0 left-0 right-0 bg-black bg-opacity-40'></div>
 			<div
-				className={`lg:px-32 md:px-16 px-0 relative top-[20px] max-w-7xl text-center `}>
+				className={`lg:px-32 md:px-16 px-0 relative top-[20px] text-center `}>
 				<h3 className={`${styles.bannerHeadText}`}>Get in Touch</h3>
 				<h2 className={`${styles.sectionWhiteHeading}`}>Contact Me</h2>
 				<div className='bg-white bg-opacity-20 grid md:grid-cols-2 grid-cols-1 justify-center items-center md:h-96 gap-10 mt-10 lg:px-20 p-10'>

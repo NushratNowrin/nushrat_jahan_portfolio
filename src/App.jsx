@@ -22,13 +22,6 @@ function App() {
 			<Projects />
 			<Academic />
 			<Contact />
-			{/* <Tech/>
-          <Works/>
-          <Feedbacks/> */}
-			<div className='relative z-0'>
-				{/* 
-              <StarsCanvas/> */}
-			</div>
 			<ThreeD />
 		</div>
 	);

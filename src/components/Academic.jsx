@@ -13,7 +13,7 @@ const Academic = () => {
 	// console.log(academics)
 	return (
 		<section id='academic' className='py-20 w-full mx-auto'>
-			<div className={`${styles.paddingX} top-[80px] max-w-7xl text-center`}>
+			<div className={`${styles.paddingX} top-[80px]  text-center`}>
 				<h3 className={`${styles.bannerHeadText}`}>
 					expert in anything was also once a beginner
 				</h3>

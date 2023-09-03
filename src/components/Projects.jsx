@@ -14,7 +14,7 @@ const Projects = () => {
     const threeProjects = projects.slice(0, 3);
     return (
         <section id='projects' className='py-20 w-full mx-auto bg-black-100'>
-            <div className={`${styles.paddingX} top-[80px] max-w-7xl text-center`}>
+            <div className={`${styles.paddingX} top-[80px] text-center`}>
             <h3 className={`${styles.bannerHeadText}`}>Each project is a unique piece of development</h3>
                 <h2 className={`${styles.sectionWhiteHeading}`}>Projects</h2>
                 <div className='grid grid-cols-1 justify-center items-center gap-10 mt-10'>

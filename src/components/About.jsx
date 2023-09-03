@@ -9,7 +9,7 @@ import { useState } from "react";
 const About = () => {
 	const [fold, setFold] = useState(true);
 	return (
-		<section id='about' className='w-full sm:h-screen mt-8 h-auto mx-auto overflow-hidden'>
+		<section id='about' className='w-full py-28 mx-auto overflow-hidden'>
 			<div
 				className={`${styles.paddingX} h-full grid sm:grid-cols-3 grid-cols-1 items-center justify-center sm:gap-20`}>
 				<Fade left>

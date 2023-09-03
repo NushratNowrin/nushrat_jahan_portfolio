@@ -159,6 +159,7 @@
 .contact{
 	background-image: url('/src/assets/world-connect.jpg');
 	background-repeat: no-repeat;
+	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
 }

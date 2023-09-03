@@ -12,9 +12,9 @@ import "./style.css";
 
 const Hero = () => {
 	return (
-		<section className='relative w-full sm:h-screen h-[750px] '>
+		<section className='relative w-full sm:h-screen h-[850px] '>
 			<div
-				className={`${styles.paddingX} absolute inset-0 top-[100px] mx-auto  flex sm:flex-row flex-col items-center sm:justify-between sm:mb-20`}>
+				className={`${styles.paddingX} absolute inset-0 top-[100px] mx-auto  flex sm:flex-row flex-col gap-16 items-center sm:justify-between sm:mb-20`}>
 				<Fade left cascade>
 					<div className='flex sm:items-center gap-5'>
 						<div className='flex flex-col justify-center items-center mt-5'>

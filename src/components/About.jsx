@@ -9,13 +9,13 @@ import { useState } from "react";
 const About = () => {
 	const [fold, setFold] = useState(true);
 	return (
-		<section id='about' className='w-full sm:h-screen h-auto mx-auto '>
+		<section id='about' className='w-full sm:h-screen mt-8 h-auto mx-auto '>
 			<div
 				className={`${styles.paddingX} h-full grid sm:grid-cols-3 grid-cols-1 items-center justify-center sm:gap-20`}>
 				<Fade left>
 					<div className='sm:order-first order-last  flex items-center justify-center w-full'>
 						<img
-							className='sm:h-72 h-60 sm:mt-10 md:mb-0 mb-20 rounded-lg outline-4  outline-primary -outline-offset-8 outline-double border-2 border-primary p-4 pr-0 NushratImage2'
+							className='sm:h-72 h-60 mt-10 md:mb-0 mb-20 rounded-lg outline-4  outline-primary -outline-offset-8 outline-double border-2 border-primary p-4 pr-0 NushratImage2'
 							src={Nushrat}
 							alt='Nushrat'
 						/>

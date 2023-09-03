@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { CgArrowLongDownR } from "react-icons/cg";
 import { CgArrowLongDown } from "react-icons/cg";
 import { styles } from "../styles";
-
 const Academic = () => {
 	const [academics, setAcademics] = useState([]);
 	useEffect(() => {
@@ -10,7 +9,7 @@ const Academic = () => {
 			.then((res) => res.json())
 			.then((data) => setAcademics(data));
 	}, []);
-	// console.log(academics)
+	console.log(academics)
 	return (
 		<section id='academic' className='py-20 w-full mx-auto'>
 			<div className={`${styles.paddingX} top-[80px]  text-center`}>

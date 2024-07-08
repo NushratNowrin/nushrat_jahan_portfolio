@@ -1,6 +1,6 @@
 import React from "react";
 import { styles } from "../styles";
-import Nushrat from "../assets/Nushrat-2.png";
+import Nushrat from "../assets/Nushrat_Left.png";
 import Fade from "react-reveal/Slide";
 import { aboutMe } from "../constants/index.js";
 import "./style.css";
@@ -37,7 +37,9 @@ const About = () => {
 							{fold ? (
 								<>
 									<div>
-										<p className='md:text-base text-sm'>{aboutMe.substring(0, 451)}</p>
+										<p className='md:text-base text-sm'>
+											{aboutMe.substring(0, 451)}
+										</p>
 										<div
 											className={`${styles.shadowButton} shadowButton px-8 mt-5`}
 											onClick={() => setFold(!fold)}>

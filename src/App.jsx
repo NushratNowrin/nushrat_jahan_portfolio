@@ -15,7 +15,6 @@ function App() {
 			<div className='bg-hero-pattern bg-cover bg-no-repeat bg-center bg-fixed'>
 				<Hero />
 			</div>
-
 			<About />
 			<Services />
 			<Skills />

@@ -7,7 +7,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import Fade from "react-reveal/Slide";
-import Typed from 'react-typed';
+import Typed from "react-typed";
 import "./style.css";
 
 const Hero = () => {
@@ -22,57 +22,66 @@ const Hero = () => {
 							<div className='w-1 h-72 bg-gradient-to-b from-primary' />
 						</div>
 						<div>
-							<h3 className={`${styles.bannerHeadText}`}>
-								Hi, It&apos;s me,{" "}
-							</h3>
+							<h3 className={`${styles.bannerHeadText}`}>Hi, It&apos;s me, </h3>
 							<h1 className={`${styles.heroHeadText} `}>Nushrat Jahan</h1>
 							<h2 className={`${styles.orangeHeader}`}>
 								I&apos;m a{" "}
-                <Typed className='text-primary'
-                strings={[
-                    'Full-stack Developer',
-                    'MERN Developer',
-                    'Front-end Developer',
-					'React Developer',
-					'UI Designer'
-                    ]}
-                    typeSpeed={50}
-                    backSpeed={40}
-                    loop >
-                </Typed>
+								<Typed
+									className='text-primary'
+									strings={[
+										"Full-stack Developer",
+										"MERN Developer",
+										"Front-end Developer",
+										"React Developer",
+										"UI Designer",
+									]}
+									typeSpeed={50}
+									backSpeed={40}
+									loop></Typed>
 							</h2>
 							<p className={`${styles.heroSubText} text-gray-300`}>
 								I currently working on MERN stack web development,{" "}
-								<br className='sm:block hidden' />  and connected with Web Development field since 2020.
+								<br className='sm:block hidden' /> and connected with Web
+								Development field since 2020.
 							</p>
 							<div className='flex items-center gap-5 sm:my-5 my-3'>
 								<div className={`${styles.bannerIcon} icon-shadow`}>
-									<a href='https://www.linkedin.com/in/nushrat-jahan-nowrin/' target='_blank'
-									rel='noreferrer'>
+									<a
+										href='https://www.linkedin.com/in/nushrat-jahan-nowrin/'
+										target='_blank'
+										rel='noreferrer'>
 										<FaLinkedinIn />
 									</a>
 								</div>
 								<div className={`${styles.bannerIcon} icon-shadow`}>
-									<a href='https://twitter.com/Nushrat_Jahan27' target='_blank'
-									rel='noreferrer'>
+									<a
+										href='https://twitter.com/Nushrat_Jahan27'
+										target='_blank'
+										rel='noreferrer'>
 										<FaTwitter />
 									</a>
 								</div>
 								<div className={`${styles.bannerIcon} icon-shadow`}>
-									<a href='https://www.facebook.com/nushratjahan.nowrin' target='_blank'
-									rel='noreferrer'>
+									<a
+										href='https://www.facebook.com/nushratjahan.nowrin'
+										target='_blank'
+										rel='noreferrer'>
 										<FaFacebookF />
 									</a>
 								</div>
 								<div className={`${styles.bannerIcon} icon-shadow`}>
-									<a href='https://www.behance.net/nushrat_jahan' target='_blank'
-									rel='noreferrer'>
+									<a
+										href='https://www.behance.net/nushrat_jahan'
+										target='_blank'
+										rel='noreferrer'>
 										<FaBehance className='' />
 									</a>
 								</div>
 								<div className={`${styles.bannerIcon} icon-shadow`}>
-									<a href='https://github.com/NushratNowrin' target='_blank'
-									rel='noreferrer'>
+									<a
+										href='https://github.com/NushratNowrin'
+										target='_blank'
+										rel='noreferrer'>
 										<FaGithub className='' />
 									</a>
 								</div>
@@ -91,8 +100,11 @@ const Hero = () => {
 				</Fade>
 				<Fade right>
 					<div>
-						<img className='h-72 sm:mt-10 rounded-full border-4  outline-dotted outline-2 outline-primary -outline-offset-8 border-primary p-4 NushratImage' src={Nushrat} alt='Nushrat' />  
-	
+						<img
+							className='h-80 sm:mt-10 rounded-full border-4  outline-dotted outline-2 outline-primary -outline-offset-8 border-primary py-2 px-4 NushratImage bg-slate-300 bg-opacity-60'
+							src={Nushrat}
+							alt='Nushrat'
+						/>
 					</div>
 				</Fade>
 			</div>
@@ -112,9 +124,7 @@ const Hero = () => {
 						/>
 					</div>
 				</a>
-				
 			</div>
-			
 		</section>
 	);
 };
